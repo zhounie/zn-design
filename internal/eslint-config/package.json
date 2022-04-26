@@ -1,0 +1,19 @@
+{
+  "name": "@iszhounie/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint 配置",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access":"public"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint-define-config": "^1.4.0"
+  }
+}
