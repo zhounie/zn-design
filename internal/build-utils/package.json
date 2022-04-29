@@ -1,0 +1,15 @@
+{
+  "name": "@iszhounie/build-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "unbuild": "^0.7.4"
+  }
+}

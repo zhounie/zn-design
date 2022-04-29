@@ -1,4 +1,4 @@
 {
-    "root": true,
-    "extends": ["@iszhounie/eslint-config"]
+  "root": true,
+  "extends": ["@iszhounie/eslint-config"]
 }

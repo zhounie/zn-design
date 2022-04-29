@@ -8,4 +8,6 @@
 package.json
 lib/plugin/cli/site/doc/page
 lib/plugin/cli/site/doc/view
+dist
 node_modules
+pnpm-lock.yaml

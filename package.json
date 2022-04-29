@@ -1,22 +1,30 @@
 {
-  "name": "zn-design",
   "version": "1.0.0",
+  "name": "zn-design",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .vue,.js,.ts --max-warnings 0"
+    "lint": "eslint . --ext .vue,.js,.ts --max-warnings 0",
+    "format": "prettier --write .",
+    "dev": "pnpm -C play dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
-    "@iszhounie/eslint-config": "^0.0.1",
+    "@iszhounie/build-utils": "workspace:*",
+    "@iszhounie/components": "workspace:*",
+    "@iszhounie/eslint-config": "workspace:*",
+    "@iszhounie/utils": "workspace:*",
+    "@types/gulp": "^4.0.9",
     "eslint": "^8.14.0",
     "eslint-define-config": "^1.4.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "sucrase": "^3.21.0",
+    "vue": "^3.2.25"
   }
 }
