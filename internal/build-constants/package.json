@@ -1,15 +1,15 @@
 {
-  "name": "@iszhounie/build-utils",
+  "name": "@iszhounie/build-constants",
   "version": "1.0.0",
-  "description": "",
+  "description": "zn-design 打包用到的常量",
+  "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "unbuild"
   },
-  "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "unbuild": "^0.7.4"
   }
 }

@@ -1,11 +1,23 @@
+<template>
+  <button
+    :class="{
+      'is-disabled': disabled
+    }"
+    :disabled="disabled"
+  >
+    <span>
+      <slot />
+    </span>
+  </button>
+</template>
+
 <script lang="ts">
-import { defineComponent, h } from 'vue'
+import { defineComponent } from 'vue'
+
 export default defineComponent({
   name: 'ZnButton',
-  setup(props, { slots }) {
-    return () => h('button', {}, h('span', {}, slots.default()))
+  props: {
+    disabled: Boolean
   }
 })
 </script>
-
-<style></style>

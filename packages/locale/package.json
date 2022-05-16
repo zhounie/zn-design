@@ -1,0 +1,9 @@
+{
+  "name": "@iszhounie/locale",
+  "version": "1.0.0",
+  "description": "Zn Design locale",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.d.ts",
+  "license": "MIT"
+}

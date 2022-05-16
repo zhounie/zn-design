@@ -1,0 +1,22 @@
+{
+  "name": "@iszhounie/theme-chalk",
+  "version": "0.0.1",
+  "description": "Zn Design chalk theme.",
+  "license": "MIT",
+  "main": "index.css",
+  "style": "index.css",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "gulp --require sucrase/register/ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@iszhounie/build": "workspace:*",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-clean-css": "^4.3.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0"
+  }
+}

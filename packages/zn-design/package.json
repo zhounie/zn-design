@@ -1,0 +1,46 @@
+{
+  "name": "zn-design",
+  "version": "0.0.4-dev.1",
+  "description": "Vue3 组件",
+  "keywords": [
+    "zn-design",
+    "zn",
+    "ui",
+    "vue"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.mjs"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./es/*.mjs": "./es/*.mjs",
+    "./es/*": "./es/*.mjs",
+    "./lib/*.js": "./lib/*.js",
+    "./lib/*": "./lib/*.js",
+    "./*": "./*"
+  },
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "sideEffects": [
+    "dist/*",
+    "theme-chalk/*.css",
+    "theme-chalk/src/*.scss",
+    "es/components/*/style/*",
+    "lib/components/*/style/*"
+  ],
+  "style": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  }
+}
